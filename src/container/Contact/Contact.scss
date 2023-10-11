@@ -1,0 +1,59 @@
+.app__contact {
+    padding: 100px 0;
+    min-height: 100vh;
+
+    .thank-you-message {
+        font-size: 40px;
+        font-weight: 800;
+        text-align: center;
+        color: var(--secondary-color);
+        text-transform: capitalize;
+
+        @media screen and (max-width: 450px) {
+            font-size: 30px;
+        }
+    }
+
+    .app___contact-form {
+        margin-top: 50px;
+        text-align: center;
+
+        .app__contact-heading {
+            margin-bottom: 50px;
+        }
+        .app__contact-input {
+            input {
+                width: 600px;
+                height: 50px;
+                margin-bottom: 20px;
+                padding-left: 10px;
+
+                @media screen and (max-width: 768px) {
+                    width: 350px;
+                }
+            }
+
+            textarea {
+                width: 600px;
+
+                margin-bottom: 20px;
+                padding: 10px 10px;
+                @media screen and (max-width: 768px) {
+                    width: 350px;
+                }
+            }
+
+            .app__contact-submit {
+                width: 200px;
+                background-color: var(--secondary-color);
+                border: none;
+                margin: 20px 0;
+                padding-left: 0px;
+
+                &:hover {
+                    background-color: var(--white-color);
+                }
+            }
+        }
+    }
+}

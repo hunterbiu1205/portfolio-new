@@ -1,0 +1,94 @@
+.app__skills {
+  padding-top: 150px;
+  padding-bottom: 150px;
+  @media screen and (max-width: 768px) {
+    margin-bottom: 400px;
+  }
+
+  h1 {
+    padding-bottom: 40px;
+  }
+
+  .app__skills-inner {
+    @media screen and (max-width: 768px) {
+      display: flow;
+      padding: 15px;
+    }
+
+    .app__skills-logos {
+      display: grid;
+      justify-content: center;
+      grid-template-columns: 80px 80px 80px;
+      grid-template-rows: 80px 80px 80px 80px;
+      grid-gap: 70px;
+      width: 50%;
+      padding: 20px 0px 50px 0;
+
+      @media screen and (max-width: 768px) {
+        justify-content: center;
+        grid-template-columns: 60px 60px 60px;
+        grid-template-rows: 60px 60px 60px 60px;
+      }
+
+      .app__skills-item {
+        width: 90px;
+        height: 90px;
+        border-radius: 50%;
+
+        @media screen and (max-width: 768px) {
+          width: 70px;
+          height: 70px;
+        }
+
+        &:hover {
+          box-shadow: 0 0 25px #fef4f5;
+        }
+
+        .app__skills-icon {
+          padding: 15px;
+          width: 90px;
+          height: 90px;
+
+          @media screen and (max-width: 768px) {
+            padding: 15px;
+            width: 70px;
+            height: 70px;
+          }
+        }
+      }
+    }
+
+    .app__skills-experiences {
+      width: 50%;
+
+      .app__skills-experiences-inner {
+        display: flex;
+        margin-top: 40px;
+        padding-right: 100px;
+        color: var(--white-color);
+
+        .app__skills-experiences-year {
+          h3 {
+            width: 140px;
+            color: var(--secondary-color);
+            @media screen and (max-width: 768px) {
+              width: 100px;
+            }
+          }
+        }
+
+        .app__skills-experiences-info {
+          h3 {
+            color: var(--secondary-color);
+            @media screen and (max-width: 768px) {
+              width: 250px;
+            }
+          }
+          p {
+            padding-top: 20px;
+          }
+        }
+      }
+    }
+  }
+}
