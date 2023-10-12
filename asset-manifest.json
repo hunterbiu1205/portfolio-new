@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/portfolio-new/static/css/main.f21c59d0.css",
+    "main.css": "/portfolio-new/static/css/main.4708a4a5.css",
     "main.js": "/portfolio-new/static/js/main.d21deedb.js",
     "static/js/787.28cb0dcd.chunk.js": "/portfolio-new/static/js/787.28cb0dcd.chunk.js",
     "static/media/profile1.jpg": "/portfolio-new/static/media/profile1.ad06087057889a83cbd6.jpg",
@@ -29,12 +29,12 @@
     "static/media/roboto-slab-greek-ext-400-normal.woff2": "/portfolio-new/static/media/roboto-slab-greek-ext-400-normal.cda27b324f079e22c3b1.woff2",
     "index.html": "/portfolio-new/index.html",
     "static/media/circle.svg": "/portfolio-new/static/media/circle.134eeeb1e58895b892195fe8ed63bc9f.svg",
-    "main.f21c59d0.css.map": "/portfolio-new/static/css/main.f21c59d0.css.map",
+    "main.4708a4a5.css.map": "/portfolio-new/static/css/main.4708a4a5.css.map",
     "main.d21deedb.js.map": "/portfolio-new/static/js/main.d21deedb.js.map",
     "787.28cb0dcd.chunk.js.map": "/portfolio-new/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f21c59d0.css",
+    "static/css/main.4708a4a5.css",
     "static/js/main.d21deedb.js"
   ]
 }
