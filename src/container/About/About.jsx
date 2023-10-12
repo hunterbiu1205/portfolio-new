@@ -1,10 +1,11 @@
 import React from "react";
 import { motion } from 'framer-motion';
 import "./About.scss";
+import { AppWrap } from '../../wrapper';
 
-export const About = () => {
+const About = () => {
   return (
-    <div className="app__flex app__whitebg ">
+    <div className="app__flex app__whitebg " id="About">
       <div className="app__about-inner">
         <motion.div
         // whileInView={{ y: [200, 0], opacity: [0, 1] }}
@@ -37,5 +38,7 @@ export const About = () => {
       </div>
 
     </div >
-  );
-};
+  )
+}
+
+export default AppWrap(About, 'about');

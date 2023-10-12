@@ -2,8 +2,9 @@ import React from "react";
 import { motion } from "framer-motion";
 import images from "../../constants/images";
 import "./Header.scss";
+import { AppWrap } from '../../wrapper';
 
-export const Header = () => {
+const Header = () => {
   return (
     <div className="app__header_intro">
       <motion.div
@@ -38,6 +39,7 @@ export const Header = () => {
   )
 }
 
+export default AppWrap(Header, 'home');
 
 
 

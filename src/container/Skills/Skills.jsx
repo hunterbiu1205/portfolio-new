@@ -1,8 +1,9 @@
 import React from "react";
 import "./Skills.scss";
 import images from "../../constants/images";
+import { AppWrap } from '../../wrapper';
 
-export const Skills = () => {
+const Skills = () => {
   return (
     <div className="app__skills">
       <h1 className="head-text2">Skills & Experiences</h1>
@@ -105,3 +106,5 @@ export const Skills = () => {
     </div>
   );
 };
+
+export default AppWrap(Skills, 'skills');

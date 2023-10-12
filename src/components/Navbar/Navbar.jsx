@@ -5,8 +5,8 @@ import { HiMenuAlt4, HiX } from "react-icons/hi";
 import { motion } from "framer-motion";
 import images from "../../constants/images";
 
-export default function Navbar() {
-  const items = ["Home", "About", "Work", "Skills", "Contact"];
+export const Navbar = () => {
+  const items = ["home", "about", "skills", "lifestyle", "contact"];
 
   const [navSize, setnavSize] = useState("7rem");
   const [navColor, setnavColor] = useState("transparent");
@@ -45,7 +45,7 @@ export default function Navbar() {
       <ul className="app__navbar-links">
         {items.map((item) => (
           <li className="app__flex p-text" key={`link-${item}`}>
-            <a href={`#${item}`}> {item} </a>
+            <a href={`#${item}`}>{item}</a>
           </li>
         ))}
       </ul>

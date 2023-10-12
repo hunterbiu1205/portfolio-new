@@ -1,6 +1,7 @@
 import React, { useRef, useState } from "react";
 import emailjs from "@emailjs/browser";
 import { motion } from 'framer-motion';
+import { AppWrap } from '../../wrapper';
 import './Contact.scss'
 
 export const Contact = () => {
@@ -58,3 +59,5 @@ export const Contact = () => {
     </div>
   );
 };
+
+export default AppWrap(Contact, 'contact');

@@ -1,13 +1,7 @@
 import React from 'react'
 import './App.scss';
-import Navbar from './components/Navbar/Navbar';
-import { Header } from './container/Header/Header'
-import { About } from './container/About/About'
-import { Skills } from './container/Skills/Skills';
-import { Contact } from './container/Contact/Contact';
-import { Footer } from './container/Footer/Footer';
-import { LifeStyle } from './container/LifeStyle/LifeStyle';
-
+import { Navbar } from './components/Navbar/Navbar';
+import { Header, About, Skills, Contact, LifeStyle, Footer } from './container';
 
 function App() {
   return (
