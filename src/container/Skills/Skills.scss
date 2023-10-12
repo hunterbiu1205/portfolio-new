@@ -2,11 +2,15 @@
   padding-top: 150px;
   padding-bottom: 150px;
   @media screen and (max-width: 768px) {
-    margin-bottom: 400px;
+    padding-top: 50px;
+    padding-bottom: 50px;
   }
 
   h1 {
     padding-bottom: 40px;
+    @media screen and (max-width: 768px) {
+      padding-bottom: 10px;
+    }
   }
 
   .app__skills-inner {
@@ -28,6 +32,9 @@
         justify-content: center;
         grid-template-columns: 60px 60px 60px;
         grid-template-rows: 60px 60px 60px 60px;
+        grid-gap: 50px;
+        width: 100%;
+        padding-bottom: 50px;
       }
 
       .app__skills-item {
