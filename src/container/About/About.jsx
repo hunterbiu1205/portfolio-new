@@ -13,20 +13,10 @@ const About = () => {
         >
           <h2 className="head-text">About Me</h2>
           <p className="app__about-sum p-text">
-            I'm a paragraph. Click here to add your own text and edit me. It’s
-            easy. Just click “Edit Text” or double click me to add your own
-            content and make changes to the font. Feel free to drag and drop me
-            anywhere you like on your page. I’m a great place for you to tell a
-            story and let your users know a little more about you.
+            I'm currently a dedicated web developer who is passionate about continuous learning and growth, with a particular focus on front-end development. In today's fast-paced tech landscape, I thrive on staying up-to-date with emerging technologies while nurturing my enduring love for development. Despite not having a formal design background, I possess a deep appreciation for aesthetics and design. Looking ahead, I aspire to embark on a structured journey to master design, particularly in the realms of UI and UX.
           </p>
           <p className="app__about-sum p-text">
-            This is a great space to write a long text about your company and
-            your services. You can use this space to go into a little more
-            detail about your company. Talk about your team and what services
-            you provide. Tell your visitors the story of how you came up with
-            the idea for your business and what makes you different from your
-            competitors. Make your company stand out and show your visitors who
-            you are.
+            Beyond my professional interests, I find immense joy in exploring the great outdoors. Hiking, traveling, and engaging in various outdoor activities allow me to connect with the world, offering a refreshing perspective that complements my enthusiasm for web development. It's during these adventures that I often take out my camera and immerse myself in the art of photography. Capturing the beauty of the natural world and the essence of travel experiences through the lens brings an additional layer of depth to my life. The interplay between technology and art, both in web development and photography, fuels my curiosity and drives me to create meaningful and visually captivating digital experiences.
           </p>
           <a
             href={require("../../assets/Hunter_Dong_Resume.pdf")}
