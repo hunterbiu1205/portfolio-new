@@ -32,7 +32,7 @@
         justify-content: center;
         grid-template-columns: 60px 60px 60px;
         grid-template-rows: 60px 60px 60px 60px;
-        grid-gap: 50px;
+        // grid-gap: 50px;
         width: 100%;
         padding-bottom: 50px;
       }
@@ -68,18 +68,26 @@
     .app__skills-experiences {
       width: 50%;
 
+      @media screen and (max-width: 768px) {
+        width: 100%;
+      }
       .app__skills-experiences-inner {
         display: flex;
         margin-top: 40px;
         padding-right: 100px;
         color: var(--white-color);
 
+        @media screen and (max-width: 768px) {
+          display: block;
+          padding-right: 0px;
+        }
+
         .app__skills-experiences-year {
           h3 {
-            width: 140px;
+            width: 160px;
             color: var(--secondary-color);
             @media screen and (max-width: 768px) {
-              width: 100px;
+              width: 100%px;
             }
           }
         }
@@ -88,7 +96,8 @@
           h3 {
             color: var(--secondary-color);
             @media screen and (max-width: 768px) {
-              width: 250px;
+              padding-top: 10px;
+              width: 100%;
             }
           }
           p {

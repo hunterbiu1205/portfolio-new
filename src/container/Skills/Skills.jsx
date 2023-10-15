@@ -77,24 +77,26 @@ const Skills = () => {
         <div className="app__skills-experiences">
           <div className="app__skills-experiences-inner">
             <div className="app__skills-experiences-year">
-              <h3>2021-2021</h3>
+              <h3>2022 - Present</h3>
             </div>
 
             <div className="app__skills-experiences-info">
-              <h3>Kerry Logistics - Intern</h3>
-              <p className="p-text">Designed user-interface content of the new website for the firm. Adapted to firm’s use of SQL Server Management Studio to organize and manage database. Created and executed test cases to troubleshoot as part of the software testing team. Work with warehouse management systems and participate with teamwork.</p>
+              <h3>Bickford's Group - Web developer</h3>
+              <p className="p-text">As a web developer, I specialized in creating responsive website solutions, transforming stakeholder briefs and artwork into aesthetically pleasing and highly functional websites. Additionally, I played a crucial role in maintaining and enhancing various group e-commerce websites, including Sippify, Wheel & Barrow, and Karma Living. Furthermore, I actively contributed to design and content updates, ensuring both aesthetic and functional improvements. I conducted user testing and research to optimize website performance and enhance the overall user experience.</p>
+
             </div>
           </div>
 
 
           <div className="app__skills-experiences-inner">
             <div className="app__skills-experiences-year">
-              <h3>2021-2021</h3>
+              <h3>2012-2017</h3>
             </div>
 
             <div className="app__skills-experiences-info">
-              <h3>Kerry Logistics - Intern</h3>
-              <p className="p-text">Designed user-interface content of the new website for the firm. Adapted to firm’s use of SQL Server Management Studio to organize and manage database. Created and executed test cases to troubleshoot as part of the software testing team. Work with warehouse management systems and participate with teamwork.</p>
+              <h3>China Coast Guard - Corporal</h3>
+              <p className="p-text">I operated and managed the navigational steering of Coast Guard vessels ranging from 600 to 3000 tons. I was responsible for operating on-ship radios to facilitate communication with other seafaring vessels. Notably, I achieved a remarkable record by successfully executing more than 100 critical missions, including search and rescue operations, smuggler interception, and fisheries law enforcement tasks.  </p>
+
             </div>
           </div>
         </div>
