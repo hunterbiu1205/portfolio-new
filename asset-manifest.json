@@ -1,11 +1,11 @@
 {
   "files": {
     "main.css": "/portfolio-new/static/css/main.3948e16e.css",
-    "main.js": "/portfolio-new/static/js/main.4162d709.js",
+    "main.js": "/portfolio-new/static/js/main.58df0df2.js",
     "static/js/787.28cb0dcd.chunk.js": "/portfolio-new/static/js/787.28cb0dcd.chunk.js",
     "static/media/profile1.jpg": "/portfolio-new/static/media/profile1.ad06087057889a83cbd6.jpg",
     "static/media/profile.png": "/portfolio-new/static/media/profile.852aedfa2288e818219a.png",
-    "static/media/Huatao_Dong.pdf": "/portfolio-new/static/media/Huatao_Dong.a1713e0d17214a7b127e.pdf",
+    "static/media/Hunter_Dong_Resume.pdf": "/portfolio-new/static/media/Hunter_Dong_Resume.4872979c9feade7a4dc2.pdf",
     "static/media/HD2.png": "/portfolio-new/static/media/HD2.ff8157340a0b94aac9d4.png",
     "static/media/HD1.png": "/portfolio-new/static/media/HD1.bf900240ed22a24e3265.png",
     "static/media/seo-icon.png": "/portfolio-new/static/media/seo-icon.1ccad11c14ab3d27b8ff.png",
@@ -30,11 +30,11 @@
     "index.html": "/portfolio-new/index.html",
     "static/media/circle.svg": "/portfolio-new/static/media/circle.134eeeb1e58895b892195fe8ed63bc9f.svg",
     "main.3948e16e.css.map": "/portfolio-new/static/css/main.3948e16e.css.map",
-    "main.4162d709.js.map": "/portfolio-new/static/js/main.4162d709.js.map",
+    "main.58df0df2.js.map": "/portfolio-new/static/js/main.58df0df2.js.map",
     "787.28cb0dcd.chunk.js.map": "/portfolio-new/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.3948e16e.css",
-    "static/js/main.4162d709.js"
+    "static/js/main.58df0df2.js"
   ]
 }
