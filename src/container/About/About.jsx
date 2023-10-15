@@ -29,7 +29,7 @@ const About = () => {
             you are.
           </p>
           <a
-            href={require("../../assets/Huatao_Dong.pdf")}
+            href={require("../../assets/Hunter_Dong_Resume.pdf")}
             download="Huatao_Dong"
           >
             <button className="app-button" type="button">View Resume</button>
