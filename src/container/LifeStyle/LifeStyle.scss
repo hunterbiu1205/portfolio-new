@@ -1,6 +1,36 @@
 .app__lifestyle {
-  height: 100vh;
-  width: 100%;
-  background-color: #f1f0f0;
-  overflow-x: hidden;
+    // height: 100vh;
+    // width: 100%;
+    background-color: #f1f0f0;
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 150px;
+    // overflow-x: hidden;
+
+    @media screen and (max-width: 768px) {
+        padding-top: 20px;
+        padding-bottom: 100px;
+    }
+
+    .slick-initialized .slick-slide {
+        display: flex !important;
+        justify-content: center !important;
+        align-items: center !important;
+    }
+
+    .slick-dots {
+        position: absolute;
+        bottom: -50px;
+    }
+
+    .app__lifestyle-slider {
+        img {
+            width: 550px;
+            height: auto;
+            @media screen and (max-width: 768px) {
+                width: 100%;
+                height: auto;
+            }
+        }
+    }
 }
