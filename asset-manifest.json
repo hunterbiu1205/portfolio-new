@@ -1,10 +1,26 @@
 {
   "files": {
-    "main.css": "/static/css/main.1ac9c4cd.css",
-    "main.js": "/static/js/main.89c3bd4f.js",
+    "main.css": "/static/css/main.e957fc07.css",
+    "main.js": "/static/js/main.9c12c85e.js",
     "static/js/787.28cb0dcd.chunk.js": "/static/js/787.28cb0dcd.chunk.js",
     "static/media/profile1.jpg": "/static/media/profile1.f17e8b828f723f9764a7.jpg",
+    "static/media/HD-lifestyle-2.png": "/static/media/HD-lifestyle-2.9dfd889a8371c89c3eda.png",
+    "static/media/HD-lifestyle-10.png": "/static/media/HD-lifestyle-10.855b07cce513293f5a97.png",
+    "static/media/HD-lifestyle-7.png": "/static/media/HD-lifestyle-7.a03ff8d244725d4ac380.png",
     "static/media/profile.png": "/static/media/profile.852aedfa2288e818219a.png",
+    "static/media/HD-lifestyle-12.png": "/static/media/HD-lifestyle-12.336e3d309003a9f4bbf9.png",
+    "static/media/HD-lifestyle-15.png": "/static/media/HD-lifestyle-15.5b19d34a0e8b9512c93c.png",
+    "static/media/HD-lifestyle-9.png": "/static/media/HD-lifestyle-9.f6b980a9824c91329c60.png",
+    "static/media/HD-lifestyle-4.png": "/static/media/HD-lifestyle-4.474826aec472d01ef99a.png",
+    "static/media/HD-lifestyle-13.png": "/static/media/HD-lifestyle-13.d01ed9de1a8b16a472b6.png",
+    "static/media/HD-lifestyle-11.png": "/static/media/HD-lifestyle-11.4f407deb52cc82b588b4.png",
+    "static/media/HD-lifestyle-1.png": "/static/media/HD-lifestyle-1.fb97241b6296905e6d31.png",
+    "static/media/HD-lifestyle-16.png": "/static/media/HD-lifestyle-16.e95999e106709cfaeb83.png",
+    "static/media/HD-lifestyle-5.png": "/static/media/HD-lifestyle-5.685e96e3c42870397b5b.png",
+    "static/media/HD-lifestyle-8.png": "/static/media/HD-lifestyle-8.ce4c2285a5d66aa2b00c.png",
+    "static/media/HD-lifestyle-6.png": "/static/media/HD-lifestyle-6.2cfb2cfcda356aa2c054.png",
+    "static/media/HD-lifestyle-3.png": "/static/media/HD-lifestyle-3.464aa669fc81dc3d1fa1.png",
+    "static/media/HD-lifestyle-14.png": "/static/media/HD-lifestyle-14.7f3ff69e80afd942d8cf.png",
     "static/media/Hunter_Dong_Resume.pdf": "/static/media/Hunter_Dong_Resume.4872979c9feade7a4dc2.pdf",
     "static/media/HD2.png": "/static/media/HD2.ff8157340a0b94aac9d4.png",
     "static/media/HD1.png": "/static/media/HD1.bf900240ed22a24e3265.png",
@@ -29,12 +45,12 @@
     "static/media/roboto-slab-greek-ext-400-normal.woff2": "/static/media/roboto-slab-greek-ext-400-normal.cda27b324f079e22c3b1.woff2",
     "index.html": "/index.html",
     "static/media/circle.svg": "/static/media/circle.134eeeb1e58895b892195fe8ed63bc9f.svg",
-    "main.1ac9c4cd.css.map": "/static/css/main.1ac9c4cd.css.map",
-    "main.89c3bd4f.js.map": "/static/js/main.89c3bd4f.js.map",
+    "main.e957fc07.css.map": "/static/css/main.e957fc07.css.map",
+    "main.9c12c85e.js.map": "/static/js/main.9c12c85e.js.map",
     "787.28cb0dcd.chunk.js.map": "/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1ac9c4cd.css",
-    "static/js/main.89c3bd4f.js"
+    "static/css/main.e957fc07.css",
+    "static/js/main.9c12c85e.js"
   ]
 }
