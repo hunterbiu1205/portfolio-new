@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.855563d6.css",
-    "main.js": "/static/js/main.9c12c85e.js",
+    "main.css": "/static/css/main.f4959b10.css",
+    "main.js": "/static/js/main.a6060f0e.js",
     "static/js/787.28cb0dcd.chunk.js": "/static/js/787.28cb0dcd.chunk.js",
     "static/media/profile1.jpg": "/static/media/profile1.f17e8b828f723f9764a7.jpg",
     "static/media/HD-lifestyle-2.png": "/static/media/HD-lifestyle-2.9dfd889a8371c89c3eda.png",
@@ -45,12 +45,12 @@
     "static/media/roboto-slab-greek-ext-400-normal.woff2": "/static/media/roboto-slab-greek-ext-400-normal.cda27b324f079e22c3b1.woff2",
     "index.html": "/index.html",
     "static/media/circle.svg": "/static/media/circle.134eeeb1e58895b892195fe8ed63bc9f.svg",
-    "main.855563d6.css.map": "/static/css/main.855563d6.css.map",
-    "main.9c12c85e.js.map": "/static/js/main.9c12c85e.js.map",
+    "main.f4959b10.css.map": "/static/css/main.f4959b10.css.map",
+    "main.a6060f0e.js.map": "/static/js/main.a6060f0e.js.map",
     "787.28cb0dcd.chunk.js.map": "/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.855563d6.css",
-    "static/js/main.9c12c85e.js"
+    "static/css/main.f4959b10.css",
+    "static/js/main.a6060f0e.js"
   ]
 }
