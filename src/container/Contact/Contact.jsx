@@ -31,11 +31,11 @@ export const Contact = () => {
 
   return (
     <div className="app__contact app__flex">
-      <div className="app__contact-inner app__container">
-        <motion.div
-          whileInView={{ y: [200, 0], opacity: [0, 1] }}
-          transition={{ duration: 1 }}
-        >
+      <motion.div
+        whileInView={{ y: [100, 0], opacity: [0, 1] }}
+        transition={{ duration: 1 }}
+      >
+        <div className="app__contact-inner app__container">
           <div className="head-text2">Contact Me</div>
           {isSubmitted ? (
             <div className="thank-you-message">Thank you for your contact!</div>
@@ -56,8 +56,8 @@ export const Contact = () => {
               </div>
             </form>
           )}
-        </motion.div>
-      </div>
+        </div>
+      </motion.div>
     </div>
   );
 };

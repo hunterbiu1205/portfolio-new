@@ -7,11 +7,12 @@ import { motion } from "framer-motion";
 const Skills = () => {
   return (
     <div className="app__skills app__flex">
-      <div className=" app__skills-inner app__container">
-        <motion.div
-          whileInView={{ y: [150, 0] }}
-          transition={{ duration: 1 }}
-        >
+      <motion.div
+        whileInView={{ y: [100, 0], opacity: [0, 1] }}
+        transition={{ duration: 1 }}
+      >
+        <div className=" app__skills-inner app__container">
+
           <h1 className="head-text2">Skills & Experiences</h1>
 
           <div className="app__flex app__skills-experience">
@@ -107,11 +108,9 @@ const Skills = () => {
               </div>
             </div>
           </div>
-        </motion.div>
-      </div>
-
-
-    </div>
+        </div>
+      </motion.div>
+    </div >
   );
 };
 

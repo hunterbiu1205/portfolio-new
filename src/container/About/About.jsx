@@ -6,11 +6,12 @@ import { AppWrap } from '../../wrapper';
 const About = () => {
   return (
     <div className="app__about app__flex app__whitebg" id="About">
-      <div className="app__about-inner app__container">
-        <motion.div
-          whileInView={{ y: [150, 0] }}
-          transition={{ duration: 1 }}
-        >
+      <motion.div
+        whileInView={{ y: [100, 0], opacity: [0, 1] }}
+        transition={{ duration: 1 }}
+      >
+        <div className="app__about-inner app__container">
+
           <h2 className="head-text">About Me</h2>
           <p className="app__about-sum p-text">
             I'm currently a dedicated web developer who is passionate about continuous learning and growth, with a particular focus on front-end development. In today's fast-paced tech landscape, I thrive on staying up-to-date with emerging technologies while nurturing my enduring love for development. Despite not having a formal design background, I possess a deep appreciation for aesthetics and design. Looking ahead, I aspire to embark on a structured journey to master design, particularly in the realms of UI and UX.
@@ -24,9 +25,9 @@ const About = () => {
           >
             <button className="app-button" type="button">View Resume</button>
           </a>
-        </motion.div>
-      </div>
 
+        </div>
+      </motion.div>
     </div >
   )
 }

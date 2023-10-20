@@ -64,7 +64,7 @@ export const Photos = () => {
     <div className="app__photos app__whitebg">
       <div className="app__photos-inner">
         <motion.div
-          whileInView={{ y: [150, 0] }}
+          whileInView={{ y: [100, 0], opacity: [0, 1] }}
           transition={{ duration: 1 }}
         >
           <h1 className="head-text"> Photos</h1>
