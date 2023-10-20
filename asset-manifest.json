@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio-new/static/css/main.6cb5072e.css",
-    "main.js": "/portfolio-new/static/js/main.d7f6ab77.js",
+    "main.css": "/portfolio-new/static/css/main.b30ce380.css",
+    "main.js": "/portfolio-new/static/js/main.fc386020.js",
     "static/js/787.28cb0dcd.chunk.js": "/portfolio-new/static/js/787.28cb0dcd.chunk.js",
     "static/media/profile1.jpg": "/portfolio-new/static/media/profile1.f17e8b828f723f9764a7.jpg",
     "static/media/HD-lifestyle-2.png": "/portfolio-new/static/media/HD-lifestyle-2.9dfd889a8371c89c3eda.png",
@@ -45,12 +45,12 @@
     "static/media/roboto-slab-greek-ext-400-normal.woff2": "/portfolio-new/static/media/roboto-slab-greek-ext-400-normal.cda27b324f079e22c3b1.woff2",
     "index.html": "/portfolio-new/index.html",
     "static/media/circle.svg": "/portfolio-new/static/media/circle.134eeeb1e58895b892195fe8ed63bc9f.svg",
-    "main.6cb5072e.css.map": "/portfolio-new/static/css/main.6cb5072e.css.map",
-    "main.d7f6ab77.js.map": "/portfolio-new/static/js/main.d7f6ab77.js.map",
+    "main.b30ce380.css.map": "/portfolio-new/static/css/main.b30ce380.css.map",
+    "main.fc386020.js.map": "/portfolio-new/static/js/main.fc386020.js.map",
     "787.28cb0dcd.chunk.js.map": "/portfolio-new/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6cb5072e.css",
-    "static/js/main.d7f6ab77.js"
+    "static/css/main.b30ce380.css",
+    "static/js/main.fc386020.js"
   ]
 }
