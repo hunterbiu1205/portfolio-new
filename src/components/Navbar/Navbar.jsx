@@ -6,7 +6,7 @@ import { motion } from "framer-motion";
 import images from "../../constants/images";
 
 export const Navbar = () => {
-  const items = ["home", "about", "skills", "lifestyle", "contact"];
+  const items = ["home", "about", "skills", "photos", "contact"];
 
   const [navSize, setnavSize] = useState("7rem");
   const [navColor, setnavColor] = useState("transparent");
@@ -56,7 +56,7 @@ export const Navbar = () => {
         {toggle && (
           <motion.div
             whileInView={{ x: [150, 0] }}
-            transition={{ duration: 0.4, ease: "easeOut" }}
+            transition={{ duration: 0.5, ease: "easeOut" }}
           >
             <HiX onClick={() => setToggle(false)} />
             {/* close menu once clicked */}

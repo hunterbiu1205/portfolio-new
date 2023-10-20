@@ -5,11 +5,11 @@ import { AppWrap } from '../../wrapper';
 
 const About = () => {
   return (
-    <div className="app__flex app__whitebg " id="About">
+    <div className="app__about app__flex app__whitebg" id="About">
       <div className="app__about-inner app__container">
         <motion.div
-        // whileInView={{ y: [200, 0], opacity: [0, 1] }}
-        // transition={{ duration: 1 }}
+          whileInView={{ y: [150, 0] }}
+          transition={{ duration: 1 }}
         >
           <h2 className="head-text">About Me</h2>
           <p className="app__about-sum p-text">

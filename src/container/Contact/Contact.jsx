@@ -31,31 +31,33 @@ export const Contact = () => {
 
   return (
     <div className="app__contact app__flex">
-      <motion.div
-        whileInView={{ y: [200, 0], opacity: [0, 1] }}
-        transition={{ duration: 1 }}
-      >
+      <div className="app__contact-inner app__container">
+        <motion.div
+          whileInView={{ y: [200, 0], opacity: [0, 1] }}
+          transition={{ duration: 1 }}
+        >
+          <div className="head-text2">Contact Me</div>
+          {isSubmitted ? (
+            <div className="thank-you-message">Thank you for your contact!</div>
+          ) : (
+            <form ref={form} onSubmit={sendEmail} className="app___contact-form">
 
-        {isSubmitted ? (
-          <div className="thank-you-message">Thank you for your contact!</div>
-        ) : (
-          <form ref={form} onSubmit={sendEmail} className="app___contact-form">
-            <div className="head-text2 app__contact-heading">Contact Me</div>
-            <div className="app__contact-input">
-              <input type="text" placeholder="Your Name" name="user_name" required />
-            </div>
-            <div className="app__contact-input">
-              <input type="email" placeholder="Your Email" name="user_email" required />
-            </div>
-            <div className="app__contact-input">
-              <textarea placeholder="Your Message" rows="8" name="message" required />
-            </div>
-            <div className="app__contact-input">
-              <input className="app__contact-submit" type="submit" value="Send" />
-            </div>
-          </form>
-        )}
-      </motion.div>
+              <div className="app__contact-input">
+                <input type="text" placeholder="Your Name" name="user_name" required />
+              </div>
+              <div className="app__contact-input">
+                <input type="email" placeholder="Your Email" name="user_email" required />
+              </div>
+              <div className="app__contact-input">
+                <textarea placeholder="Your Message" rows="8" name="message" required />
+              </div>
+              <div className="app__contact-input">
+                <input className="app__contact-submit" type="submit" value="Send" />
+              </div>
+            </form>
+          )}
+        </motion.div>
+      </div>
     </div>
   );
 };

@@ -1,0 +1,48 @@
+.app__photos-inner {
+    padding: 100px 0 150px 0;
+    text-align: center;
+
+    @media screen and (max-width: 768px) {
+        padding: 30px 0 80px 0;
+    }
+
+    h1 {
+        padding-bottom: 50px;
+        @media screen and (max-width: 768px) {
+            padding-bottom: 10px;
+        }
+    }
+
+    .slick-initialized .slick-slide {
+        display: flex !important;
+        justify-content: center !important;
+        align-items: center !important;
+    }
+
+    .slick-dots {
+        position: absolute;
+        bottom: -50px;
+
+        @media screen and (max-width: 768px) {
+            bottom: -20px;
+        }
+
+        li {
+            @media screen and (max-width: 768px) {
+                width: 10px;
+            }
+        }
+    }
+
+    .app__photos-slider {
+        img {
+            width: 400px;
+            height: auto;
+            @media screen and (max-width: 768px) {
+                width: 100%;
+                height: auto;
+                padding: 15px;
+            }
+        }
+    }
+}
