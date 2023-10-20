@@ -8,12 +8,8 @@
 }
 
 .app__container {
-  // height: 100vh;
-  // display: flex;
-  // flex-direction: column;
-  // justify-content: center;
-  // align-items: center;
-  overflow-x: hidden;
+  padding: 0 20px;
+  max-width: 1212px;
 }
 
 .app__flex {

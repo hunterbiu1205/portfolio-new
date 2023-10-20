@@ -6,7 +6,7 @@ import { AppWrap } from '../../wrapper';
 const About = () => {
   return (
     <div className="app__flex app__whitebg " id="About">
-      <div className="app__about-inner">
+      <div className="app__about-inner app__container">
         <motion.div
         // whileInView={{ y: [200, 0], opacity: [0, 1] }}
         // transition={{ duration: 1 }}
