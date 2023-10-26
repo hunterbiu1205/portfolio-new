@@ -21,7 +21,7 @@ const About = () => {
           </p>
           <a
             href={require("../../assets/Hunter_Dong_Resume.pdf")}
-            download="Huatao_Dong"
+            download="Hunter-Dong-Resume"
           >
             <button className="app-button" type="button">View Resume</button>
           </a>
