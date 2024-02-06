@@ -8,8 +8,7 @@
 
 **Description**
 
-My portfolio website - version 2 built with React and SCSS.
-React + Scss + EmialJS
+A portfolio website (version 2) built with React and SCSS.
 
 <br>
 
