@@ -11,6 +11,8 @@
 My portfolio website - version 2 built with React and SCSS.
 React + Scss + EmialJS
 
+<br>
+
 **Key Points**
 
 - [x] EmialJS - https://www.emailjs.com/
